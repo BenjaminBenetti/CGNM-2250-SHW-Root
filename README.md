@@ -1,4 +1,4 @@
-# CGNM-2250-SHW-Root
+# Getting a Root shell on the CGNM-2250-SHW Router
 How to root CGNM-2250-SHW (Shaw Hitron Router)
 
 I was messing around this weekend while putting of doing my COM100 project and I found this jucy vuln that gives you a root shell. Best of all its super easy to do, there are only 3 steps.
