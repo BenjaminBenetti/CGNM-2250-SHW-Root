@@ -19,5 +19,5 @@ __3. open a terminal and netcat to the router on port 1234__
 
 As you can see you now get a jucy root shell (root is the only user that exists on the system). Have fun messing around!
 
-## Additonal informat
+## Additonal information 
   This exploit is a command injection exploit that targets the Admin Diagnostics page. On this page you can do two things. One run a ping on some ip and two run a traceroute on some ip. The vuln comes about because the ip is only checked client side (in the js code). Thus by injecting our own post command we bypase the checks and the server will place what ever we pased as the ip address in to the ping/traceroute command, `ping <our code>`. This allows us to do remote code execution. For example, to reboot the rounter we use the string `; reboot` which resolves to, `ping ; reboot` on the server.
